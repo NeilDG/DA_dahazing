@@ -14,14 +14,15 @@ class AlignedDataset(BaseDataset):
         self.opt = opt
         self.root = opt.dataroot
 
+        #self.dir_AB = os.path.join(opt.dataroot, opt.phase)
         self.dir_AB = os.path.join(opt.dataroot, opt.phase)
-        self.dir_C = os.path.join(opt.dataroot, 'unlabeled')
+        self.dir_C = os.path.join(opt.dataroot, '')
         # self.dir_C = os.path.join(opt.dataroot, 'verify_haze_img')
         # self.dir_C = os.path.join(opt.dataroot, 'HazeRD_dataset', 'hazy')
         # self.dir_C = os.path.join(opt.dataroot, 'Dense_Haze_NTIRE19', 'hazy')
-        self.dir_D = os.path.join(opt.dataroot, 'train_depth')
-        self.dir_E = os.path.join(opt.dataroot, 'unlabeled_depth')
-        self.dir_F = os.path.join(opt.dataroot, 'test_depth')
+        self.dir_D = os.path.join(opt.dataroot, '')
+        self.dir_E = os.path.join(opt.dataroot, '')
+        self.dir_F = os.path.join(opt.dataroot, '')
         #self.dir_AB = os.path.join(opt.dataroot, 'train')
 
         self.AB_paths = sorted(make_dataset(self.dir_AB))

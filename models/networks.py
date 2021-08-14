@@ -90,7 +90,7 @@ def init_weights(net, init_type='normal', gain=0.02):
             init.constant_(m.bias.data, 0.0)
 
     print('initialize network with %s' % init_type)
-    net.apply(init_func)
+    #net.apply(init_func)
 
 def _freeze(*args):
     for module in args:
