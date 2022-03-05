@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc721fe-d526-4f61-a092-c287de9241ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DA_dahazing.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DA_dehazingnew.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/aligned_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/aligned_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/base_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/base_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/custom_dataset_data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/custom_dataset_data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/RDehazingnet_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/RDehazingnet_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/networks.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/networks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +40,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="--dataroot &quot;E:/Hazy Dataset Benchmark/OTS_BETA/haze/&quot; --name run_test --learn_residual --resize_or_crop resize_and_crop --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 0 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/30_netR_Dehazing.pth" />
+      <option name="PARAMETERS" value="--dataroot &quot;E:/Hazy Dataset Benchmark/RESIDE-Unannotated/&quot; --name run_test --learn_residual --resize_or_crop resize_and_crop --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 0 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/30_netR_Dehazing.pth" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -70,6 +59,10 @@
       <updated>1628910516776</updated>
       <workItem from="1628910518551" duration="4319000" />
       <workItem from="1628916159751" duration="1377000" />
+      <workItem from="1628952842843" duration="2542000" />
+      <workItem from="1628990585181" duration="603000" />
+      <workItem from="1629018176129" duration="3082000" />
+      <workItem from="1629250055574" duration="609000" />
     </task>
     <servers />
   </component>
@@ -89,6 +82,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DA_dahazing$test.coverage" NAME="test Coverage Results" MODIFIED="1628916897347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DA_dahazing$test.coverage" NAME="test Coverage Results" MODIFIED="1629018263867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

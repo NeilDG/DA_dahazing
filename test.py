@@ -36,12 +36,12 @@ def main(argv):
     #avgSSIM_b = 0.0
     counter = 0
 
-    #--dataroot "E:/Hazy Dataset Benchmark/OTS_BETA/haze/" --name run_test --learn_residual --resize_or_crop resize_and_crop --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 0 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/30_netR_Dehazing.pth
+    #--dataroot "E:/Hazy Dataset Benchmark/RESIDE-Unannotated/" --name run_test --learn_residual --resize_or_crop resize_and_crop --which_model_netG resnet_9blocks  --batchSize 1 --gpu_id 0 --model RDehazingnet --R_Dehazing_premodel ./checkpoints/30_netR_Dehazing.pth
     for i, data in enumerate(dataset):
         img_name = data['A_paths'][0].split("/")[-1]
         print("File name: ", img_name)
-        if i >= opt.how_many:
-            break
+        # if i >= opt.how_many:
+        #     break
 
         counter = i
         model.set_input(data)
